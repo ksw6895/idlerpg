@@ -7,7 +7,7 @@
 ### 로컬 실행
 
 ```bash
-python -m http.server 5500
+python -m http.server 5500 --directory public
 # http://localhost:5500 에 접속
 ```
 
@@ -20,7 +20,7 @@ python -m http.server 5500
 - **2.5D 연출**: Y축 기반 depth sorting과 지붕/수목 반투명 처리로 입체감을 구현했습니다.
 - **완성된 게임 플레이 루프**: 이동, 충돌, 상호작용, 대화, 퀘스트, 전투, 아이템 획득, 저장/불러오기를 포함합니다.
 - **로컬 세이브**: 진행 상황은 언제든 `P` 키로 저장하고 `L` 키로 불러올 수 있습니다.
-- **스토리와 로어**: `src/story/CORE_STORY.md`에 핵심 서사를 정리했습니다.
+- **스토리와 로어**: `docs/story/CORE_STORY.md`에 핵심 서사를 정리했습니다.
 - **오프라인 캐시**: 간단한 Service Worker가 핵심 파일을 캐싱하여 오프라인 접근을 돕습니다.
 
 ## 조작법

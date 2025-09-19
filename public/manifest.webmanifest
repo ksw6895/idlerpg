@@ -1,0 +1,10 @@
+{
+  "name": "Evergreen Tales: Lumin Grove",
+  "short_name": "LuminGrove",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1724",
+  "theme_color": "#1f2d3d",
+  "description": "빛의 씨앗을 되찾기 위한 2.5D 싱글 플레이 RPG",
+  "icons": []
+}

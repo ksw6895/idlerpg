@@ -1,0 +1,15 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)\\.(png|jpg|jpeg|webp|gif|mp3|json)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public,max-age=31536000,immutable"
+        }
+      ]
+    }
+  ]
+}

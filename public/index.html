@@ -63,10 +63,6 @@
       document.addEventListener('touchmove', preventDefault, { passive: false });
       window.addEventListener('dblclick', (e) => e.preventDefault());
     </script>
-    <script type="module">
-      import Phaser from 'https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.esm.js';
-      window.Phaser = Phaser;
-    </script>
     <script type="module" src="./src/main.js"></script>
     <script>
       if ('serviceWorker' in navigator) {

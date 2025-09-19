@@ -1,8 +1,9 @@
-const CACHE_NAME = 'lumin-grove-v2';
+const CACHE_NAME = 'lumin-grove-v3';
 const CORE_ASSETS = [
   '/',
   '/index.html',
   '/manifest.webmanifest',
+  '/src/phaser.js',
   '/src/main.js',
   '/src/scenes/BootScene.js',
   '/src/scenes/PreloadScene.js',

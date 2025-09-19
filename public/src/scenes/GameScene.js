@@ -1,3 +1,4 @@
+import Phaser from '../phaser.js';
 import { setupInput, getMovementVector } from '../systems/input.js';
 import { applyYDepthSort, setDepthByY } from '../systems/depth.js';
 import { loadGame, saveGame } from '../systems/save.js';

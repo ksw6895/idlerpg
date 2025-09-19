@@ -1,3 +1,5 @@
+import Phaser from '../phaser.js';
+
 export function setupInput(scene) {
   const cursors = scene.input.keyboard.createCursorKeys();
   const keys = scene.input.keyboard.addKeys({

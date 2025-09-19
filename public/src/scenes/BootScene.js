@@ -1,3 +1,5 @@
+import Phaser from '../phaser.js';
+
 export default class BootScene extends Phaser.Scene {
   constructor() {
     super('BootScene');

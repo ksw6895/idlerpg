@@ -382,7 +382,7 @@ export default class GameScene extends Phaser.Scene {
 }
 ```
 
-**`public/sw.js`**: 기본 캐시 전략(초간단)
+**`sw.js`**: 기본 캐시 전략(초간단)
 
 ```js
 self.addEventListener('install', e => {
@@ -398,7 +398,7 @@ self.addEventListener('fetch', e => {
 ```html
 <script>
 if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('/public/sw.js');
+  navigator.serviceWorker.register('/sw.js');
 }
 </script>
 ```

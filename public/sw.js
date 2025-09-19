@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lumin-grove-v3';
+const CACHE_NAME = 'lumin-grove-v4';
 const CORE_ASSETS = [
   '/',
   '/index.html',
